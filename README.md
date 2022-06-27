@@ -1,3 +1,3 @@
 # Designer Image Engine
 
-A search engine-esque web application built with Unsplash.com's API.
+A search engine-esque React application built with Unsplash API.
