@@ -1,0 +1,55 @@
+@import "search_bar.scss";
+@import "title_section.scss";
+
+* {
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  text-align: center;
+  height: 100%;
+
+  .query_results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 6px 0 30px 0;
+
+    .column {
+      padding: 0 1.5px;
+
+      .img_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          margin: 8px 0 0 0;
+          padding: 3px;
+          width: 100%;
+        }
+        .author {
+          position: relative;
+          font-family: "Bebas Neue", cursive;
+          font-size: 18px;
+          letter-spacing: 1.1px;
+          background-color: #00ffdd;
+          width: 100%;
+
+          #credit {
+            font-family: "Montserrat", sans-serif;
+          }
+        }
+      }
+    }
+  }
+
+  .status_message {
+    display: grid;
+    place-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+  }
+}
